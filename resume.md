@@ -5,6 +5,6 @@ permalink: /resume/
 ---
 **Devops Engineer**
 
-**me@nero.im | @neeravkumar | +65 86952625 | Singapore**
+**me@nero.im|@neeravkumar|+65 86952625|Singapore**
 
 ## Summary
