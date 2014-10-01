@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Neerav Kumar
-permalink: /about/
+permalink: /resume/
 ---
 
