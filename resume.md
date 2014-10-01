@@ -6,6 +6,7 @@ permalink: /resume/
 Neerav Kumar
 =========
 ## Devops Engineer
+
 ### [me@nero.im] | [@neeravkumar] | +65 86952625 | Singapore
 
 ## Summary
