@@ -1,17 +1,58 @@
-# Site settings
-title: Neerav Kumar
-email: me@nero.im
-author: Neerav Kumar
-description: "A Devops Engineer, a fanatic worker for what he believes in and a fantastic no-shit-giver for things he doesn't believe in"
-baseurl: ""
-url: "http://nero.io"
-google_analytics:
-animated: false
+title:            Neerav Kumar
+tagline:          Balling Hard, one command at a time
+description:      Balling Hard, one command at a time
+canonical: http://nero.io
 
-# Build settings
-markdown: kramdown
-permalink: pretty
-paginate: 3
+# Owner/author information
+owner:
+  name:           Neerav Kumar
+  avatar:         avatar.png
+  bio:            "Balling Hard, one command at a time"
+  email:          me@nero.im
+  twitter:        neeravkumar
+  github:         neeravkumar
+  disqus:         neeravkumar
+  location:       "Singapore"
+  # Plug in your disqus shortname!
+
+tools:
+  standards:      "HTML, SCSS, Jekyll"
+  software:       "git"
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about
+  - title: Github
+    url: https://github.com/neeravkumar
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Singapore
+future:      true
+highlighter: pygments
+markdown:    kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
 sass:
-  compressed: true
+    style: :compressed
 
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
